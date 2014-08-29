@@ -1,0 +1,15 @@
+/* Very Simple Knowledge Base */
+
+#vskb {clear:both;}
+#vskb:after {content:''; display:block; clear:both;}
+
+#vskb .vskb-cat-list {width:21.5%; margin:0 2% 20px 0; padding:10px 1%; float:left; background:#f8f8f8;}
+#vskb .vskb-cat-name {margin:0 0 5px; list-style:none; font-size:1.2em; line-height:1.2em; font-weight:bold; padding:0 0 10px; border-bottom: 1px solid #333;}
+#vskb .vskb-cat-name a{text-decoration:none;}
+#vskb .vskb-cat-name a:hover{text-decoration:none; color:#333;}
+#vskb .vskb-post-name {margin:0 0 0 20px;}
+#vskb .vskb-post-name a{text-decoration:none;}
+#vskb .vskb-post-name a:hover{text-decoration:none; color:#333;}
+
+#vskb ul:nth-of-type(4n+1) {clear:left;}
+#vskb ul:nth-of-type(4n+4) {margin:0 0 20px 0;}
