@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name: Very Simple Knowledge Base
- * Description: This is a very simple plugin to create a knowledgebase. Use shortcode [knowledgebase] to display your categories and posts in 4 columns. For more info please check readme file.
+ * Description: This is a very simple plugin to create a knowledgebase. Use shortcode [knowledgebase] to display your categories and posts in 4 columns.
  * Version: 1.0
  * Author: Guido van der Leest
  * Author URI: http://www.guidovanderleest.nl
