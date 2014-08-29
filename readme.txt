@@ -6,7 +6,7 @@ License URI: http://www.gnu.org/licenses/gpl-3.0.html
 Requires at Least: 3.7
 Tested up to: 3.9.2
 Stable tag: trunk
-Tags: simple, knowledge, base, bulletin, board, faq, wiki, portal
+Tags: simple, responsive, knowledge, base, bulletin, board, faq, wiki, portal
 
 
 == Changelog == 
@@ -15,7 +15,7 @@ Version 1.0
 
 
 == DESCRIPTION ==
-This is a very simple plugin to create a Knowledge Base, Bulletin Board, FAQ, Wiki or Weblink Portal. It uses the default WP categories and posts. Use shortcode [knowledgebase] to display your categories and posts in 4 columns. For more info please check readme file.
+This is a very simple plugin to create a responsive Knowledge Base, Bulletin Board, FAQ, Wiki or Weblink Portal. It uses the default WP categories and posts. Use shortcode [knowledgebase] to display your categories and posts in 4 columns. For more info please check readme file.
 
 
 == INSTALLATION == 
