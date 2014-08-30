@@ -24,9 +24,11 @@ After installation create a page and add shortcode [knowledgebase]. Now this pag
 
 == Screenshots == 
 1. Very Simple Knowledge Base in Twenty Twelve theme.
+2. Very Simple Knowledge Base in mobile version of Twenty Twelve theme (in mobile screens 2 columns).
 
 
 == OTHER NOTES ==
+Because I used css selector 'nth-of-type' it might not display 100% in IE8 and older.
 This plugin is translation-ready (Dutch translation included). More translations are very welcome! Please send them to: info@guidovanderleest.nl
 You can translate this into your own language using for example plugin Codestyling Localization: http://wordpress.org/plugins/codestyling-localization/
 
