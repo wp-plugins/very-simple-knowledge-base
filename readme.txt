@@ -4,9 +4,9 @@ Version: 1.0
 License: GNU General Public License v3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 Requires at Least: 3.7
-Tested up to: 3.9.2
+Tested up to: 4.0
 Stable tag: trunk
-Tags: simple, responsive, knowledge, base, bulletin, board, faq, wiki, portal
+Tags: simple, responsive, knowledge, base, knowledgebase, bulletin, board, bulletinboard, faq, wiki, portal
 
 
 == Changelog == 
