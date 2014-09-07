@@ -1,6 +1,6 @@
 === Very Simple Knowledge Base ===
 Contributors: Guido07111975
-Version: 1.0
+Version: 1.1
 License: GNU General Public License v3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 Requires at Least: 3.7
@@ -10,6 +10,10 @@ Tags: simple, responsive, knowledge, base, knowledgebase, bulletin, board, bulle
 
 
 == Changelog == 
+Version 1.1
+- forgot pot file and Dutch translation files in version 1.0
+- small css adjustments
+
 Version 1.0
 - first stable release
 
