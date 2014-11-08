@@ -1,8 +1,8 @@
 <?php
 /**
  * Plugin Name: Very Simple Knowledge Base
- * Description: This is a very simple plugin to create a knowledgebase. Use shortcode [knowledgebase] to display your categories and posts in 4 columns.
- * Version: 1.1
+ * Description: This is a very simple plugin to create a knowledgebase. Use shortcode [knowledgebase] to display your categories and posts in columns on a page. For more info please check readme file.
+ * Version: 1.2
  * Author: Guido van der Leest
  * Author URI: http://www.guidovanderleest.nl
  * License: GNU General Public License v3 or later
@@ -35,22 +35,22 @@ function knowledgebase_function() {
 
 	$return .= '<div id="vskb">';
 
-	$cats = get_categories('hide_empty=0&orderby=name&order=asc');
+	$vskb_cats = get_categories('hide_empty=0&orderby=name&order=asc');
 
-	foreach ($cats as $cat) :
+	foreach ($vskb_cats as $cat) :
 
 		$return .= '<ul class="vskb-cat-list"><li class="vskb-cat-name"><a href="'. get_category_link( $cat->term_id ) .'" title="'. $cat->name .'" >'. $cat->name .'</a></li>';
 
-		$args = array(
+		$vskb_args = array(
 			'posts_per_page' => -1, // max number of post per category
 			'cat' => $cat->term_id
 		);
 
-		$posts = get_posts($args); 
+		$vskb_posts = get_posts($vskb_args); 
 
-		if ( count($posts) > 0 ) :
+		if ( count($vskb_posts) > 0 ) :
 
-		foreach( $posts AS $single_post ) :
+		foreach( $vskb_posts AS $single_post ) :
 	
 			$return .=  '<li class="vskb-post-name">';
 			$return .=  '<a href="'. get_permalink( $single_post->ID ) .'" rel="bookmark" title="'. get_the_title( $single_post->ID ) .'">'. get_the_title( $single_post->ID ) .'</a>';

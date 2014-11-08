@@ -3,13 +3,13 @@
 #vskb {clear:both;}
 #vskb:after {content:''; display:block; clear:both;}
 
-#vskb .vskb-cat-list {width:21.5%; margin:0 2% 20px 0; padding:10px 1%; float:left; background:#f8f8f8;}
+#vskb .vskb-cat-list {width:23.5%; margin:0 2% 20px 0; padding:0; float:left; background:none;}
 #vskb .vskb-cat-name {list-style:none; margin:0 0 5px; padding:0 0 10px; font-size:1.2em; line-height:1.2em; font-weight:bold; border-bottom: 1px solid #333;}
 #vskb .vskb-cat-name a{text-decoration:none;}
-#vskb .vskb-cat-name a:hover{text-decoration:none; color:#333;}
+#vskb .vskb-cat-name a:hover{text-decoration:none;}
 #vskb .vskb-post-name {margin:0 0 0 20px; padding:0;}
 #vskb .vskb-post-name a{text-decoration:none;}
-#vskb .vskb-post-name a:hover{text-decoration:none; color:#333;}
+#vskb .vskb-post-name a:hover{text-decoration:none;}
 
 #vskb ul:nth-of-type(4n+1) {clear:left;}
 #vskb ul:nth-of-type(4n+4) {margin:0 0 20px 0;}
@@ -21,6 +21,6 @@
 #vskb ul:nth-of-type(4n+4) {margin:0 2% 10px 0;}
 #vskb ul:nth-of-type(2n+1) {clear:left;}
 #vskb ul:nth-of-type(2n+2) {margin:0 0 10px 0;}
-#vskb .vskb-cat-list {width:47%; margin:0 2% 10px 0; padding:10px 1%;}
+#vskb .vskb-cat-list {width:47%; margin:0 2% 10px 0;}
 
 }
