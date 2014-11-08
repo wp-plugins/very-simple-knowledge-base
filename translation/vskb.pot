@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Very Simple Knowledge Base v1.1\n"
+"Project-Id-Version: Very Simple Knowledge Base v1.2\n"
 "POT-Creation-Date: 2014-03-06 19:24+0100\n"
 "PO-Revision-Date: 2014-03-06 19:26+0100\n"
 "Last-Translator: \n"
@@ -18,7 +18,7 @@ msgstr ""
 #. translators: plugin header field 'Description'
 #: vskb.php:0
 #@ vskb
-msgid "This is a very simple plugin to create a knowledgebase. Use shortcode [knowledgebase] to display your categories and posts in 4 columns. For more info please check readme file."
+msgid "This is a very simple plugin to create a knowledgebase. Use shortcode [knowledgebase] to display your categories and posts in columns on a page. For more info please check readme file."
 msgstr ""
 
 #. translators: plugin header field 'Author'
@@ -36,5 +36,5 @@ msgstr ""
 #. translators: plugin header field 'Version'
 #: vskb.php:0
 #@ vskb
-msgid "1.1"
+msgid "1.2"
 msgstr ""
