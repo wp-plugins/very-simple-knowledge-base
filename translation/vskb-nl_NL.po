@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Very Simple Knowledge Base v1.2\n"
+"Project-Id-Version: Very Simple Knowledge Base v1.3\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2014-11-08 13:23:37+0000\n"
+"PO-Revision-Date: 2014-12-13 19:20:45+0000\n"
 "Last-Translator: Guido van der Leest\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -41,12 +41,12 @@ msgstr ""
 #. translators: plugin header field 'Description'
 #: vskb.php:0
 #@ vskb
-msgid "This is a very simple plugin to create a knowledgebase. Use shortcode [knowledgebase] to display your categories and posts in columns on a page. For more info please check readme file."
-msgstr "Dit is een zeer eenvoudige plugin om een kennisbank te maken. Gebruik shortcode [knowledgebase] om je categorieën en berichten in kolommen op een pagina te tonen. Voor meer info zie readme bestand."
+msgid "This is a very simple plugin to create a knowledgebase. Use shortcode [knowledgebase-three] or [knowledgebase] to display your categories and posts in 3 or 4 columns on a page. For more info please check readme file."
+msgstr "Dit is een zeer eenvoudige plugin om een kennisbank te maken. Gebruik shortcode [knowledgebase-three] of [knowledgebase] om je categorieën en berichten in 3 of 4 kolommen op een pagina te tonen. Voor meer info zie readme bestand."
 
 #. translators: plugin header field 'Version'
 #: vskb.php:0
 #@ vskb
-msgid "1.2"
+msgid "1.3"
 msgstr ""
 
