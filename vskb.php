@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Very Simple Knowledge Base
  * Description: This is a very simple plugin to create a knowledgebase. Use shortcode [knowledgebase-three] or [knowledgebase] to display your categories and posts in 3 or 4 columns on a page. For more info please check readme file.
- * Version: 1.3
+ * Version: 1.4
  * Author: Guido van der Leest
  * Author URI: http://www.guidovanderleest.nl
  * License: GNU General Public License v3 or later

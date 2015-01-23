@@ -1,15 +1,19 @@
 === Very Simple Knowledge Base ===
 Contributors: Guido07111975
-Version: 1.3
+Version: 1.4
 License: GNU General Public License v3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 Requires at Least: 3.7
-Tested up to: 4.0
+Tested up to: 4.1
 Stable tag: trunk
 Tags: simple, responsive, knowledge, base, knowledgebase, bulletin, board, bulletinboard, faq, wiki, portal
 
 
 == Changelog ==
+Version 1.4
+- reordered file vskb_style
+- added fix to remove border bottom from links in Twenty Fifteen
+
 Version 1.3
 - now also shortcode for 3 columns: [knowledgebase-three]
 - adjusted file vskb.php and file vskb_style.css
