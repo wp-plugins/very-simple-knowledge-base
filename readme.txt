@@ -3,7 +3,7 @@ Contributors: Guido07111975
 Version: 1.4
 License: GNU General Public License v3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
-Requires at Least: 3.7
+Requires at least: 3.7
 Tested up to: 4.1
 Stable tag: trunk
 Tags: simple, responsive, knowledge, base, knowledgebase, bulletin, board, bulletinboard, faq, wiki, portal
@@ -39,7 +39,18 @@ It uses the default WP categories and posts.
 
 Use shortcode [knowledgebase-three] or [knowledgebase] to display your categories and posts in 3 or 4 columns on a page. In mobile screens 2 columns.
 
-For more info please check readme file.
+Because I used css selector 'nth-of-type' it might not display 100% in IE8 and older.
+
+= Translation =
+This plugin is translation-ready (Dutch translation included). Only things that can be translated are dashboard name and plugin description.
+
+= CREDITS =
+Without the WordPress codex and help from the WordPress community I was not able to develop this plugin, so: thank you!
+
+A special thank you to Niels van Renselaar for helping me with the shortcode.
+
+Enjoy,
+Guido
 
 
 == INSTALLATION == 
@@ -52,25 +63,5 @@ That's all!
 
 == Screenshots == 
 1. Very Simple Knowledge Base in Twenty Twelve theme.
+
 2. Very Simple Knowledge Base in mobile version of Twenty Twelve theme (in mobile screens 2 columns).
-
-
-== OTHER NOTES ==
-Because I used css selector 'nth-of-type' it might not display 100% in IE8 and older.
-
-This plugin is translation-ready (Dutch translation included). Only things that can be translated are dashboard name and plugin description.
-
-More translations are very welcome! Please contact me via my website.
-
-You can translate this into your own language using for example plugin Codestyling Localization: 
-
-http://wordpress.org/plugins/codestyling-localization/
-
-
-== CREDITS ==
-Without the WordPress codex and help from the WordPress community I was not able to develop this plugin, so: thank you!
-
-A special thank you to Niels van Renselaar for helping me with the shortcode.
-
-Enjoy,
-Guido
