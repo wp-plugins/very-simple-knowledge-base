@@ -62,6 +62,6 @@ That's all!
 
 
 == Screenshots == 
-1. Very Simple Knowledge Base in Twenty Twelve theme.
+1. Very Simple Knowledge Base in Twenty Fifteen theme (3 or 4 columns).
 
-2. Very Simple Knowledge Base in mobile version of Twenty Twelve theme (in mobile screens 2 columns).
+2. Very Simple Knowledge Base in mobile version of Twenty Fifteen theme (2 columns).
