@@ -66,5 +66,14 @@ Now this page will display your categories and posts in 3 or 4 columns. In mobil
 That's all!
 
 
+== Frequently Asked Questions ==
+= Why are the subcategory names not displayed? =
+The subcategory name is hidden so post name will be displayed under parent category name.
+You can change this in files three_columns and four_columns by removing this: parent=0&
+
+= Other question or comment? =
+Please open a topic in plugin forum or send me a message via my website.
+
+
 == Screenshots == 
 1. Very Simple Knowledge Base (3 or 4 columns) in Twenty Fifteen theme.
