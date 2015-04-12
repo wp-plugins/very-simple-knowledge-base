@@ -2,25 +2,25 @@
 
 
 /* Link styles */
-#vskb a, #vskb-three a {text-decoration:none;}
-#vskb a:hover, #vskb-three a:hover {text-decoration:none;}
+#vskb-four a, #vskb-three a {text-decoration:none;}
+#vskb-four a:hover, #vskb-three a:hover {text-decoration:none;}
 
 
 /* Remove border bottom from links in Twenty Fifteen */
-#vskb a, #vskb-three a {border-bottom:0;}
+#vskb-four a, #vskb-three a {border-bottom:0;}
 
 
 /* Category and Post names */
-#vskb .vskb-cat-name, #vskb-three .vskb-cat-name {list-style:none; margin:0 0 5px; padding:0 0 10px; font-size:1.2em; line-height:1.2em; font-weight:bold; border-bottom: 1px solid #333;}
-#vskb .vskb-post-name, #vskb-three .vskb-post-name {margin:0 0 0 20px; padding:0;}
+#vskb-four .vskb-cat-name, #vskb-three .vskb-cat-name {list-style:none; margin:0 0 5px; padding:0 0 10px; font-size:1.2em; line-height:1.2em; font-weight:bold; border-bottom: 1px solid #333;}
+#vskb-four .vskb-post-name, #vskb-three .vskb-post-name {margin:0 0 0 20px; padding:0;}
 
 
 /* Four Columns */
-#vskb {clear:both;}
-#vskb:after {content:''; display:block; clear:both;}
-#vskb .vskb-cat-list {width:23.5%; margin:0 2% 20px 0; padding:0; float:left; background:none;}
-#vskb ul:nth-of-type(4n+1) {clear:left;}
-#vskb ul:nth-of-type(4n+4) {margin:0 0 20px 0;}
+#vskb-four {clear:both;}
+#vskb-four:after {content:''; display:block; clear:both;}
+#vskb-four .vskb-cat-list {width:23.5%; margin:0 2% 20px 0; padding:0; float:left; background:none;}
+#vskb-four ul:nth-of-type(4n+1) {clear:left;}
+#vskb-four ul:nth-of-type(4n+4) {margin:0 0 20px 0;}
 
 
 /* Three Columns */
@@ -33,12 +33,14 @@
 
 /* Mobile */
 @media screen and (max-width:767px) { 
-	#vskb ul:nth-of-type(4n+1) {clear:none;}
-	#vskb ul:nth-of-type(4n+4) {margin:0 2% 10px 0;}
-	#vskb ul:nth-of-type(2n+1) {clear:left;}
-	#vskb ul:nth-of-type(2n+2) {margin:0 0 10px 0;}
-	#vskb .vskb-cat-list {width:47%; margin:0 2% 10px 0;}
+	/* Four Columns */
+	#vskb-four ul:nth-of-type(4n+1) {clear:none;}
+	#vskb-four ul:nth-of-type(4n+4) {margin:0 2% 10px 0;}
+	#vskb-four ul:nth-of-type(2n+1) {clear:left;}
+	#vskb-four ul:nth-of-type(2n+2) {margin:0 0 10px 0;}
+	#vskb-four .vskb-cat-list {width:47%; margin:0 2% 10px 0;}
 
+	/* Three Columns */
 	#vskb-three ul:nth-of-type(3n+1) {clear:none;}
 	#vskb-three ul:nth-of-type(3n+3) {margin:0 2% 10px 0;}
 	#vskb-three ul:nth-of-type(2n+1) {clear:left;}

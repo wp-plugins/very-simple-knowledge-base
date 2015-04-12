@@ -1,12 +1,12 @@
 <?php
 // Creating the shortcode for three columns
-function three_columns() {
+function vskb_three_columns() {
 
 	$return = "";
 
 	$return .= '<div id="vskb-three">';
 
-	$vskb_cats = get_categories('hide_empty=0&orderby=name&order=asc');
+	$vskb_cats = get_categories('parent=0&hide_empty=0&orderby=name&order=asc');
 
 	foreach ($vskb_cats as $cat) :
 
@@ -40,4 +40,6 @@ function three_columns() {
 	return $return;
 	
 }
+add_shortcode('knowledgebase-three', 'vskb_three_columns');
+
 ?>

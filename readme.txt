@@ -1,6 +1,6 @@
 === Very Simple Knowledge Base ===
 Contributors: Guido07111975
-Version: 1.4
+Version: 1.5
 License: GNU General Public License v3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 Requires at least: 3.7
@@ -10,6 +10,11 @@ Tags: simple, responsive, knowledge, base, knowledgebase, bulletin, board, bulle
 
 
 == Changelog ==
+Version 1.5
+- relocated shortcode from file vskb to files three_columns and four_columns
+- files four_columns and vskb_style: changed div vskb into vskb-four
+- hide subcategory name in list (post name will be displayed under parent category name)
+
 Version 1.4
 - reordered file vskb_style
 - added fix to remove border bottom from links in Twenty Fifteen
@@ -42,7 +47,7 @@ Use shortcode [knowledgebase-three] or [knowledgebase] to display your categorie
 Because I used css selector 'nth-of-type' it might not display 100% in IE8 and older.
 
 = Translation =
-This plugin is translation-ready (Dutch translation included). Only things that can be translated are dashboard name and plugin description.
+Dutch translation included. Only things that can be translated are dashboard name and plugin description. More translations are very welcome! Please contact me via my website.
 
 = CREDITS =
 Without the WordPress codex and help from the WordPress community I was not able to develop this plugin, so: thank you!
@@ -62,6 +67,4 @@ That's all!
 
 
 == Screenshots == 
-1. Very Simple Knowledge Base in Twenty Fifteen theme (3 or 4 columns).
-
-2. Very Simple Knowledge Base in mobile version of Twenty Fifteen theme (2 columns).
+1. Very Simple Knowledge Base (3 or 4 columns) in Twenty Fifteen theme.

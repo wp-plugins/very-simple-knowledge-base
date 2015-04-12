@@ -1,12 +1,12 @@
 <?php
 // Creating the shortcode for four columns
-function four_columns() {
+function vskb_four_columns() {
 
 	$return = "";
 
-	$return .= '<div id="vskb">';
+	$return .= '<div id="vskb-four">';
 
-	$vskb_cats = get_categories('hide_empty=0&orderby=name&order=asc');
+	$vskb_cats = get_categories('parent=0&hide_empty=0&orderby=name&order=asc');
 
 	foreach ($vskb_cats as $cat) :
 
@@ -40,4 +40,6 @@ function four_columns() {
 	return $return;
 	
 }
+add_shortcode('knowledgebase', 'vskb_four_columns');
+
 ?>
