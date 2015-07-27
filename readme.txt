@@ -1,6 +1,6 @@
 === Very Simple Knowledge Base ===
 Contributors: Guido07111975
-Version: 1.5
+Version: 1.6
 License: GNU General Public License v3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 Requires at least: 3.7
@@ -10,6 +10,9 @@ Tags: simple, responsive, knowledge, base, knowledgebase, bulletin, board, bulle
 
 
 == Changelog ==
+Version 1.6
+- updated language files
+
 Version 1.5
 - relocated shortcode from file vskb to files three_columns and four_columns
 - files four_columns and vskb_style: changed div vskb into vskb-four
@@ -44,7 +47,10 @@ It uses the default WP categories and posts.
 
 Use shortcode [knowledgebase-three] or [knowledgebase] to display your categories and posts in 3 or 4 columns on a page. In mobile screens 2 columns.
 
-Because I used css selector 'nth-of-type' it might not display 100% in IE8 and older.
+Because I have used css selector 'nth-of-type' it might not display 100% in IE8 and older.
+
+Question? Please take a look at the FAQ section.
+
 
 = Translation =
 Dutch translation included. Only things that can be translated are dashboard name and plugin description. More translations are very welcome! Please contact me via my website.
