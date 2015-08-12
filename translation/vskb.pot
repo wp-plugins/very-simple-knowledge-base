@@ -2,8 +2,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Very Simple Knowledge Base\n"
-"POT-Creation-Date: 2015-07-27 09:27+0200\n"
-"PO-Revision-Date: 2015-07-27 09:27+0200\n"
+"POT-Creation-Date: 2015-08-12 22:02+0200\n"
+"PO-Revision-Date: 2015-08-12 22:02+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -25,9 +25,9 @@ msgstr ""
 
 #. Description of the plugin/theme
 msgid ""
-"This is a very simple plugin to create a knowledgebase. Use shortcode "
-"[knowledgebase-three] or [knowledgebase] to display your categories and "
-"posts in 3 or 4 columns on a page. For more info please check readme file."
+"This is a very simple plugin to create a knowledgebase. Use 1 of the 4 "
+"shortcodes to display your categories and posts on a page. For more info "
+"please check readme file."
 msgstr ""
 
 #. Author of the plugin/theme
