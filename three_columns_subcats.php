@@ -1,12 +1,12 @@
 <?php
 // Creating the shortcode for three columns
-function vskb_three_columns() {
+function vskb_three_columns_subcats() {
 
 	$return = "";
 
 	$return .= '<div id="vskb-three">';
 
-	$vskb_cats = get_categories('parent=0&hide_empty=1&orderby=name&order=asc');
+	$vskb_cats = get_categories('hide_empty=1&orderby=name&order=asc');
 
 	foreach ($vskb_cats as $cat) :
 
@@ -14,7 +14,7 @@ function vskb_three_columns() {
 
 		$vskb_args = array(
 			'posts_per_page' => -1, // -1 means list all posts
-			'cat' => $cat->cat_ID // list posts from all categories and posts from sub category will be listed underneath their parent category
+			'category__in' => $cat->cat_ID // list posts from all categories and posts from sub category will be hidden from their parent category
 		);
 
 		$vskb_posts = get_posts($vskb_args); 
@@ -34,6 +34,6 @@ function vskb_three_columns() {
 	return $return;
 	
 }
-add_shortcode('knowledgebase-three', 'vskb_three_columns');
+add_shortcode('knowledgebase-three-subcats', 'vskb_three_columns_subcats');
 
 ?>

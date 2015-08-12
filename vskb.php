@@ -1,8 +1,8 @@
 <?php
 /**
  * Plugin Name: Very Simple Knowledge Base
- * Description: This is a very simple plugin to create a knowledgebase. Use shortcode [knowledgebase-three] or [knowledgebase] to display your categories and posts in 3 or 4 columns on a page. For more info please check readme file.
- * Version: 1.6
+ * Description: This is a very simple plugin to create a knowledgebase. Use 1 of the 4 shortcodes to display your categories and posts on a page. For more info please check readme file.
+ * Version: 1.7
  * Author: Guido van der Leest
  * Author URI: http://www.guidovanderleest.nl
  * License: GNU General Public License v3 or later
@@ -31,5 +31,7 @@ add_action('wp_enqueue_scripts', 'vskb_scripts');
 // Include the shortcode files
 include 'three_columns.php';
 include 'four_columns.php';
+include 'three_columns_subcats.php';
+include 'four_columns_subcats.php';
 
 ?>

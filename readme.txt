@@ -1,15 +1,20 @@
 === Very Simple Knowledge Base ===
 Contributors: Guido07111975
-Version: 1.6
+Version: 1.7
 License: GNU General Public License v3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 Requires at least: 3.7
-Tested up to: 4.2
+Tested up to: 4.3
 Stable tag: trunk
 Tags: simple, responsive, knowledge, base, knowledgebase, bulletin, board, bulletinboard, faq, wiki, portal
 
 
 == Changelog ==
+Version 1.7
+- added 2 files to list sub categories too: three_columns_subcats and four_columns_subcats
+- updated files three_columns and four_columns
+- updated file readme
+
 Version 1.6
 - updated language files
 
@@ -45,7 +50,11 @@ This is a very simple plugin to create a responsive Knowledge Base, Bulletin Boa
 
 It uses the default WP categories and posts. 
 
-Use shortcode [knowledgebase-three] or [knowledgebase] to display your categories and posts in 3 or 4 columns on a page. In mobile screens 2 columns.
+Use shortcode [knowledgebase-three] or [knowledgebase] to display your PARENT CATEGORIES and all posts in 3 or 4 columns on a page. 
+
+Use shortcode [knowledgebase-three-subcats] or [knowledgebase-subcats] to display your PARENT AND SUB CATEGORIES and all posts in 3 or 4 columns on a page.
+
+In mobile screens 2 columns.
 
 Because I have used css selector 'nth-of-type' it might not display 100% in IE8 and older.
 
@@ -58,24 +67,26 @@ Dutch translation included. Only things that can be translated are dashboard nam
 = CREDITS =
 Without the WordPress codex and help from the WordPress community I was not able to develop this plugin, so: thank you!
 
-A special thank you to Niels van Renselaar for helping me with the shortcode.
+A special thank you to Niels van Renselaar and PDO team for helping me with the shortcode.
 
 Enjoy,
 Guido
 
 
 == INSTALLATION == 
-After installation create a page and add shortcode [knowledgebase-three] or [knowledgebase]. 
+After installation create a page and add 1 of these shortcodes:
 
-Now this page will display your categories and posts in 3 or 4 columns. In mobile screens 2 columns.
+Use shortcode [knowledgebase-three] or [knowledgebase] to display your PARENT CATEGORIES and all posts in 3 or 4 columns on a page. 
 
-That's all!
+Use shortcode [knowledgebase-three-subcats] or [knowledgebase-subcats] to display your PARENT AND SUB CATEGORIES and all posts in 3 or 4 columns on a page. 
+
+In mobile screens 2 columns.
+
 
 
 == Frequently Asked Questions ==
-= Why are the subcategory names not displayed? =
-The subcategory name is hidden so post name will be displayed under parent category name.
-You can change this in files three_columns and four_columns by removing this: parent=0&
+= How are the categories and posts listed? =
+The categories are listed in alphabetical order (A-Z). Empty categories are hidden. The posts are listed on date. 
 
 = Other question or comment? =
 Please open a topic in plugin forum or send me a message via my website.
